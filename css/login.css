@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: url(../img/netflix.body.jpg) no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    position: relative;
+    width: 167px;
+    height: 45px;
+    padding: 20px 50px;
+}
+
+.container{
+    position: relative;
+    max-width: 450px;
+    height: 400px;
+    background: rgb(0, 0, 0, 0.75);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0% 34%;
+}
+.entra{
+    font-size: 30px;
+    color: #fff;
+}
+.contanier_input{
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    padding: 0 5px;
+    margin: 5px 0;
+}
+.contanier_input:hover{
+    background-color: #444;
+}
+.submit{
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: #e50914;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    margin: 5px 0;
+}
+.submit:hover{
+    background-color: #fc1722;
+    cursor: pointer;
+}
+.suporte{
+    color: #d3d3d3;
+    font-size: 12px;
+    margin: 5px 0;
+}
+.lembre_se{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    height: 25px;
+}
+.checkbox{
+    width: 15px;
+    height: 15px;
+}
+.ajuda {
+    text-decoration: none;
+    color: #737373;
+}
+.ajuda:hover{
+    text-decoration: underline;
+}
+.login_facebook{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #737373;
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+.login_facebook:hover{
+    text-decoration: none;
+    color: #737373;
+}
+.logo_facebook{
+    width: 20px;
+    margin-right: 5px;
+}
+.sign_up {
+    color: #737373;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+#sign_up{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+#sign_up:hover{
+    text-decoration: underline;
+}
+.termo{
+    color: #737373;
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+.termos{
+    text-decoration: none;
+    color: #0071eb;
+}
+.termos:hover{
+    text-decoration: underline;
+}

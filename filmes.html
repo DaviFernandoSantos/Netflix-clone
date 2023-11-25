@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esse é meu primeiro site">
+    <meta name="keywords" content="NetFlix, Filmes">
+    <meta name="author" content="Davi Fernando">
+    <link href="css/netflix.css" rel="stylesheet"/>
+    <title>NetFlix</title>
+</head>
+<body>
+    <nav class="nav" id="navbar">
+        <section class="section">
+            <img class="logo" src="img/netflix.png" alt="NetFlix">
+        
+            <a class="nav_section" href="#">Início</a>
+            <a class="nav_section" href="#">Séries</a>
+            <a class="nav_section" href="#">Filmes</a>
+            <a class="nav_section" href="#">Bombando</a>
+            <a class="nav_section" href="#">Minha lista</a>
+            <a class="nav_section" href="#">Navegar por idiomas</a>
+        </section>
+        <section class="section_nav">
+            <a  href="#"><img class="incons" src="img/lupa.png" alt=""></a>
+            <a  href="#" class="novidades">
+                <img class="incons" src="img/sino.png" alt="">
+                <div id="notificacoes" class="sino_notificacoes">
+                    <div class="sino_notificacoes_filmes">
+                        <img class="img_notificacoes" src="img/filme10.jpg">
+                        <div class="contanier_text_sino">
+                            <p class="sinoP">Estreia dia 21 de Dezembro<br>Assistar ao trailer<br><p class="sinoT">Hoje</p></p>
+                        </div>
+                    </div>
+                    <div class="sino_notificacoes_filmes">
+                        <img class="img_notificacoes" src="img/filme10.jpg">
+                        <div class="contanier_text_sino">
+                            <p class="sinoP">Estreia dia 21 de Dezembro<br>Assistar ao trailer<br><p class="sinoT">Hoje</p></p>
+                        </div>
+                    </div>
+                    <div class="sino_notificacoes_filmes">
+                        <img class="img_notificacoes" src="img/filme10.jpg">
+                        <div class="contanier_text_sino">
+                            <p class="sinoP">Estreia dia 21 de Dezembro<br>Assistar ao trailer<br><p class="sinoT">Hoje</p></p>
+                        </div>
+                    </div>
+                    <div class="sino_notificacoes_filmes">
+                        <img class="img_notificacoes" src="img/filme10.jpg">
+                        <div class="contanier_text_sino">
+                            <p class="sinoP">Estreia dia 21 de Dezembro<br>Assistar ao trailer<br><p class="sinoT">Hoje</p></p>
+                        </div>
+                    </div>
+                    <div class="sino_notificacoes_filmes">
+                        <img class="img_notificacoes" src="img/filme10.jpg">
+                        <div class="contanier_text_sino">
+                            <p class="sinoP">Estreia dia 21 de Dezembro<br>Assistar ao trailer<br><p class="sinoT">Hoje</p></p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <img  class="usuario" src="img/logo1.png" alt="Logo">
+        </section>
+    </nav> 
+
+    <header class="header">
+        <div class="header_contenier">
+            <div class="net"><img class="net_img" src="img/net.png"><p style="letter-spacing: 3px;">Filmes</p></div>
+            <h1 class="title">Velozes & Furiosos 9</h1>
+            <h1 class="descricao">
+                Dominic Toretto e sua equipe correm para acabar com uma 
+                ameaça à civilização mundial liberada por um criminoso de elite, 
+                que por acaso é irmão de Dom
+            </h1>
+            <div class="buttons_contenier">
+                <button class="button"><img class="fontButton" src="img/play.png"> Assistir</button>
+                <button class="button1"><img class="fontButton" src="img/informacoes.png"> Mais Informações</button>
+            </div>
+        </div>
+            <div class="banner-fadeBottom"></div>
+    </header>
+    <div class="contanier_filmes">
+        <section class="row">
+            <h2 style="margin: 16px 7px;">Originais NetFlix</h2>
+            <div class="contanierPosters">
+                <button class="seta seta1" onclick="direcao(1)">
+                    <img class="setaFont" src="img/seta-esquerda.png" alt="">
+                </button> 
+                <div class="row_posters" id="contentSlide">
+                    <img class="row_poster row_posterLarge" src="img/filme1.jpg" alt="">
+                    <img class="row_poster row_posterLarge" src="img/filme2.jpg" alt="">
+                    <img class="row_poster row_posterLarge" src="img/filme3.jpg" alt="">
+                    <img class="row_poster row_posterLarge" src="img/filme4.jpg" alt="">
+                    <img class="row_poster row_posterLarge" src="img/filme5.jpg" alt="">
+                    <img class="row_poster row_posterLarge" src="img/filme8.jpg" alt="">
+                    <img class="row_poster row_posterLarge" src="img/filme9.jpg" alt="">
+                    <img class="row_poster row_posterLarge" src="img/filme11.jpg" alt="">
+                    <img class="row_poster row_posterLarge" src="img/filme13.jpg" alt="">
+                    <img class="row_poster row_posterLarge" src="img/filme1.jpg" alt="">
+                    <img class="row_poster row_posterLarge" src="img/filme2.jpg" alt="">
+                    <img class="row_poster row_posterLarge" src="img/filme3.jpg" alt="">
+                    <img class="row_poster row_posterLarge" src="img/filme4.jpg" alt="">
+                    <img class="row_poster row_posterLarge" src="img/filme5.jpg" alt="">
+                    <img class="row_poster row_posterLarge" src="img/filme8.jpg" alt="">
+                    <img class="row_poster row_posterLarge" src="img/filme9.jpg" alt="">
+                    <img class="row_poster row_posterLarge" src="img/filme11.jpg" alt="">
+                    <img class="row_poster row_posterLarge" src="img/filme13.jpg" alt="">
+                </div>
+                <button class="seta seta2" onclick="direcao(2)">
+                    <img class="setaFont" src="img/seta-direita.png" alt="">
+                </button>
+            </div>
+        </section>
+        <section class="row">
+            <h2 style="margin: 16px 7px;">Principais escolhas para Davi</h2>
+            <div class="row_posters">
+                <img class="row_poster row_posterLarge" src="img/filme1.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme2.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme3.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme4.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme5.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme8.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme9.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme11.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme13.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme1.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme2.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme3.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme4.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme5.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme8.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme9.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme11.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme13.jpg" alt="">
+            </div>
+        </section>
+        <section class="row">
+            <h2 style="margin: 16px 7px;">Novidades</h2>
+            <div class="row_posters">
+                <img class="row_poster row_posterLarge" src="img/filme1.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme2.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme3.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme4.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme5.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme8.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme9.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme11.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme13.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme1.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme2.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme3.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme4.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme5.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme8.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme9.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme11.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme13.jpg" alt="">
+            </div>
+        </section>
+        <section class="row">
+            <h2 style="margin: 16px 7px;">Brasil: 10 top em filmes hoje</h2>
+            <div class="row_posters">
+                <img class="row_poster row_posterLarge" src="img/filme1.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme2.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme3.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme4.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme5.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme8.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme9.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme11.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme13.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme1.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme2.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme3.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme4.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme5.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme8.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme9.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme11.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme13.jpg" alt="">
+            </div>
+        </section>
+        <section class="row">
+            <h2 style="margin: 16px 7px;">Em Alta</h2>
+            <div class="row_posters">
+                <img class="row_poster row_posterLarge" src="img/filme1.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme2.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme3.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme4.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme5.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme8.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme9.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme11.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme13.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme1.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme2.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme3.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme4.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme5.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme8.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme9.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme11.jpg" alt="">
+                <img class="row_poster row_posterLarge" src="img/filme13.jpg" alt="">
+            </div>
+        </section>
+    </div>
+    <footer class="contanier_footer">
+        <section>
+            <a href="#"><img class="icons" src="img/facebook_logo.png" alt=""></a>
+            <a href="#"><img class="icons" src="img/instagram.png" alt=""></a>
+            <a href="#"><img class="icons" src="img/twitter.png" alt=""></a>
+            <a href="#"><img class="icons" src="img/youtube.png" alt=""></a>
+        </section>
+        <section class="contanier_forms">
+            <div class="forms">
+                <a class="forms_link" href="#">Audiodescrição</a>
+                <a class="forms_link" href="#">Relações com investidores</a>
+                <a class="forms_link" href="#">Avisos legais</a>
+            </div>
+            <div class="forms">
+                <a class="forms_link" href="#">Central de Ajuda</a>
+                <a class="forms_link" href="#">Carreiras</a>
+                <a class="forms_link" href="#">Preferências de cookies</a>
+            </div>
+            <div class="forms">
+                <a class="forms_link" href="#">Cartão pré-pago</a>
+                <a class="forms_link" href="#">Termos de Uso</a>
+                <a class="forms_link" href="#">Informações de Uso</a>
+            </div>
+            <div class="forms1">
+                <a class="forms_link" href="#">Impresa</a>
+                <a class="forms_link" href="#">Privacidade</a>
+                <a class="forms_link" href="#">Entre em contato</a>
+            </div>
+        </section>
+        <section>
+            <button class="codigo_servico">Código do serviço</button>
+        </section>
+        <section class="footer_descricao">
+            <p>© 1997-2023 Netflix, Inc.</p>
+        </section>
+    </footer>
+    
+    <script type="text/javascript" src="js/netflix.js"></script>
+</body>
+</html>

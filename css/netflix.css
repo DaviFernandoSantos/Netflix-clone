@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #141414;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding: 20px 40px;
+    top: 0;
+    z-index: 1;
+    transition-timing-function:  ease-in;
+    transition: all 0.5s;
+}
+.nav_black{
+    color: #fff;
+    background: #141414;
+}
+.section_nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+#notificacoes{
+    height: 319px;
+    width: 400px;
+    background: #000000ba;
+    overflow: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    right: 120px;
+}
+.sino_notificacoes{
+    display: none;
+    height: 319px;
+    width: 400px;
+    background: #000000ba;
+    overflow: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    right: 130px;
+    top: 69px;
+}
+.contanier_text_sino {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.sinoP{
+    font-size: 1.0em;
+    color: #ffffff;
+    text-decoration: none;
+}
+.sinoT{
+    font-size: 12px;
+    color: #818181;
+    text-decoration: none;
+}
+.sino_notificacoes_filmes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px;;
+    border-bottom: 1px solid black;
+}
+.img_notificacoes{
+    max-width: 40%;
+}
+.section{
+    display: flex;
+    align-items: center;
+}
+.nav_section{
+    font-weight: 800;
+    font-size: 13px;
+    color: #fff;
+    margin: 0 6px;
+    text-decoration: none;
+}
+.nav_section:hover{
+    color: #e5e5e5;
+}
+
+.incons{
+    width: 30px;
+    margin-right: 20px;
+}
+.logo{
+    margin-right: 30px;
+    width: 80px;
+    object-fit: contain;
+} 
+.usuario{
+    width: 30px; 
+    object-fit: contain;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(0 0 0);
+    object-fit: contain;
+    height: 690px;
+    background-image: url(../img/velozesefuriosos.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.header_contenier{
+    display: flex;
+    color: #fff;
+    margin: 85px 0 0 30px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+.net{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.net_img{
+    width: 35px;
+}
+.title{
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 0 0 5px 0;
+}
+.buttons_contenier{
+    display: flex;
+    margin-top: 5px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0px 10px 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+.button:hover{
+    background-color: rgba(255, 255, 255, 0.589);
+    transition: all 0.2s;
+}
+.button1{
+    display: flex;
+    align-items: center;
+    background: #80808094;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0px 10px 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.button1:hover{
+    background-color: #6b6b6b70;
+    transition: all 0.2s;
+}
+.seta1{
+    left: 0;
+}
+.seta2{
+    right: 0;
+}
+.fontButton{
+    width: 17%;
+    margin-right: 10px;
+}
+.seta{
+    position: absolute;
+    background: hsl(0deg 0% 100% / 0%);
+    border: none;
+    height: 250px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seta:hover{
+    background: hsl(0deg 0% 100% / 0%);
+}
+
+.seta1{
+    left: 0;
+}
+.seta2{
+    right: 0;
+}
+.setaFont {
+    height: 30px;
+}
+.setaFont:hover {
+    height: 40px;
+}
+.descricao{
+    width: 100%;
+    line-height: 1.3;
+    font-size: 14px;
+    max-width: 360px;
+    padding-bottom: 30px;
+}
+.banner-fadeBottom {
+    height: 302px;
+    background-image: linear-gradient(180deg, transparent, rgb(0 0 0 / 60%), #141414);
+}
+
+.row_poster {
+    width: 100%;
+    object-fit: contain;
+    max-height: 100px;
+    margin: 0 5px 0 5px;
+    transition: transform 450ms;
+}
+.contanier_filmes{
+    display: flex;
+    flex-direction: column;
+    margin-top: -100px;
+}
+.row{
+    color: #fff;
+    margin: 0 35px 50px 35px;
+}
+
+.row_posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.row_posters:hover{
+    transform: scale(1.0);
+}
+.row_posters::-webkit-scrollbar{
+    display: none;
+}
+
+.row_posterLarge{
+    max-height: 250px;
+}
+.row_posterLarge:hover{
+    transform: scale(1.1);
+}
+
+.contanierPosters{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contanier_footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    height: 300px;
+    margin: 0 190px;
+}
+.icons{
+    margin: 5px 10px;
+    height: 25px;
+}
+
+.contanier_forms{
+    display: flex;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    margin-right: 90px;
+}
+.forms1{
+    display: flex;
+    flex-direction: column;
+}
+.forms_link{
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 13px;
+    color: #595959;
+    text-decoration: none;
+}
+.forms_link:hover{
+    text-decoration: underline;
+}
+.codigo_servico{
+    border: 1px solid #595959;
+    background: #141414;
+    color: #595959;
+    padding: 7px;
+    margin: 10px 0;
+    max-width: 100%;
+    cursor: pointer;
+}
+.codigo_servico:hover{
+    color: #fff;
+    background: #141414;
+}
+
+.footer_descricao{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #595959;
+}
